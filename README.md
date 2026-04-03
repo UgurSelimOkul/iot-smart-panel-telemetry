@@ -10,7 +10,7 @@ A custom-designed, end-to-end industrial IoT hardware solution developed for rem
 
 ### Front View & Back View
 <p align="center">
-  <img src="front_view.png" alt="Front View of the PCB" width="45%">
+  <img src="front_view.jpeg" alt="Front View of the PCB" width="45%">
   &nbsp; &nbsp; &nbsp; &nbsp;
   <img src="back_view.png" alt="Back View of the PCB" width="45%">
 </p>
