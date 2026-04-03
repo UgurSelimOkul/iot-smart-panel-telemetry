@@ -26,15 +26,16 @@ A custom-designed, end-to-end industrial IoT hardware solution developed for rem
 
 ## 🛡️ System Capabilities
 
-* **Visual Alarm System:** Instantly captures photos upon detecting unauthorized access (door opening) or physical impact, transmitting them via the **Telegram API** within seconds.
+* **Flexible Data Transmission & Visual Alarms:** Instantly captures photos upon detecting unauthorized access or physical impact. The system is designed with endpoint flexibility, allowing data and images to be transmitted to **any configured server, custom web dashboards, cloud databases, or messaging APIs (e.g., Telegram)** within seconds.
 * **Smart Energy Management (Deep Sleep):** When no threats are detected, the system enters "Deep Sleep" mode, reducing energy consumption to a minimum. It wakes up in milliseconds solely via hardware interrupt signals from the sensors.
-* **Early Warning & Telemetry:** Continuously analyzes the ambient temperature, humidity, and physical door status. Initiates emergency protocols before critical conditions escalate.
+* **Early Warning & Climate Telemetry:** Continuously analyzes the ambient temperature, humidity, and physical door status. Initiates emergency protocols before critical conditions (like condensation or overheating) escalate.
 * **Production & Deployment:** A unique PCB layout was designed for stable operation. **15 units** were successfully manufactured, assembled, and deployed for field testing.
 
 ## 📡 Integrated Sensors
 
-1.  **Magnetic Door Sensor:** Operates on the reed relay principle, continuously monitoring the door status and sending immediate trigger signals to the MCU upon unauthorized opening.
-2.  **SW-420 Vibration Sensor:** A spring-type mechanical switch that detects physical impacts, tremors, and vibrations on the surface, transmitting them as physical interrupts.
+1.  **DHT21 Temperature & Humidity Sensor:** Provides highly accurate, real-time climate data from inside the electrical panel, essential for preventing hardware degradation due to extreme heat or moisture.
+2.  **Magnetic Door Sensor:** Operates on the reed relay principle, continuously monitoring the door status and sending immediate trigger signals to the MCU upon unauthorized opening.
+3.  **SW-420 Vibration Sensor:** A spring-type mechanical switch that detects physical impacts, tremors, and vibrations on the surface, transmitting them as physical interrupts.
 
 ---
 ### 👨‍💻 Designed & Developed by
